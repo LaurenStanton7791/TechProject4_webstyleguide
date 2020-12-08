@@ -1,0 +1,8 @@
+
+@mixin mediaquery($brk) {
+    @if $brk == "narrow" {
+        @media (min-width: $brk-narrow) {
+            @content;
+        }
+    }
+}
