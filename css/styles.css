@@ -449,6 +449,9 @@ template {
 }
 .nav .nav-link {
   text-align: center;
+  background-color: #58e1c1;
+  color: white;
+  margin: 3px;
   border-radius: 5px;
   padding: 10px 0;
   display: block;

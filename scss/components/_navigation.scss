@@ -9,6 +9,9 @@
     flex-direction: column;
   .nav-link {
     text-align: center;
+    background-color: $color-primary;
+    color: white;
+    margin: 3px;
     border-radius: 5px;
     padding: 10px 0;
     display: block;
@@ -18,7 +21,7 @@
       color .2s ease-in-out;
     &:hover {
     color: $white;
-    background-color: $color-primary-light;
+    background-color: lighten($color-primary, 15%);
     }
   }
 }
