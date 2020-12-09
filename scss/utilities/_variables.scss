@@ -11,4 +11,13 @@ $color-warning: #fd7856;
 $color-img-frame: #ccc;
 
 // Media query breakpoints
+
 $brk-narrow: 768px;
+
+// Font Stacks
+
+$stack-sans-serif: 'Lato', sans-serif;
+
+// Color Functions 
+
+$color-primary-light: lighten($color-primary, 15%)

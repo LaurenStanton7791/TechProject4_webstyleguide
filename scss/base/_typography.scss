@@ -7,16 +7,14 @@
     font-family: 'Lato', sans-serif;
     color: $color-text;
     box-sizing: border-box;
-  }
-  
-  p {
+    p {
     line-height: 1.45em;
   }
   
-  a {
+    a {
     text-decoration: none;
   }
-  
+}
   
   /* ============================================= */
   /*              Typography                       */
@@ -33,7 +31,7 @@
   }
   
   .link {
-    color: $color-text;
+    color: $color-default;
     font-weight: 700;
   }
   
